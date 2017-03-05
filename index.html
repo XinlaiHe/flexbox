@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Flex Box</title>
+		<style>
+			.container {
+				background-color: red;
+				height: 300px;
+			}
+
+			.element {
+				background-color: blue;
+				height: 100px;
+				width: 100px;
+				margin: 0 auto;
+				position: relative;
+				top: 50%;
+				transform: translateY(-50%);
+			}
+
+			.container1 {
+				background-color: green;
+				height: 300px;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+			}
+
+			.element1 {
+				background-color: yellow;
+				width: 100px;
+				height: 100px;
+				margin: 0 auto;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="element">
+			</div>
+		</div>
+		<div class="container1">
+			<div class="element1">
+			</div>
+		</div>
+	</body>
+</html>
